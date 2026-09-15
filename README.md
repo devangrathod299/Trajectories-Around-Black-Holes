@@ -22,7 +22,7 @@ The general geodesic equation,
 
 $$
 \begin{aligned}
-\frac{d^2x^{\alpha}}{d{\lambda}^2} + {\Gamma}^{\alpha}_{\mu\beta} {\left(\frac{dx^{\mu}}{d{\lambda}}\right)}{\left(\frac{dx^{\beta}}{d{\lambda}\right)} = 0
+\frac{d^2x^{\alpha}}{d{\lambda}^2} + {\Gamma}^{\alpha}_{\mu\beta} {\left(\frac{dx^{\mu}}{d{\lambda}}\right)}{\left(\frac{dx^{\beta}}{d{\lambda}}\right)} = 0
 \end{aligned}
 $$
 
