@@ -10,3 +10,9 @@ Trajectories are computed in the equatorial plane ($\theta = {\pi}/{2}$). The Sc
 $ds^2 = -(1 - \frac{R}{r}){dt^2} + {(1 - \frac{R}{r})}^{-1}{dr^2} + {r^2}{{d\theta}^{2}} + {r^2}{sin\theta^2}{d\phi^2}$
 
 where R = $2GM/c^2$ is the Schwarzschild radius. The metric supplies two conserved quantities along any geodesic:
+
+* Angular momentum: L
+* Energy: E
+
+For the Kerr extension, the Boyer–Lindquist form of the metric is used, introducing the spin parameter a = J/(Mc) and the frame-dragging term that couples t and $\phi$.
+
