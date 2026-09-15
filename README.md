@@ -30,7 +30,11 @@ is not integrated directly in Christoffel-symbol form. Instead, E and L are used
 
 Massless (photon):
 
-(\frac{dr}{d\lambda})^2 = E^2 - (1 - \frac{R}{r})(\frac{L^2}{r^2})
+$$
+\begin{aligned}
+\left(\frac{dr}{d\lambda}\right)^2 = E^2 - \left(1 - \frac{R}{r})(\frac{L^2}{r^2}\right)
+\end{aligned}
+$$
 
 Massive $(\epsilon = 1):$
 
