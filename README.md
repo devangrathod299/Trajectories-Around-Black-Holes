@@ -28,22 +28,27 @@ $$
 
 is not integrated directly in Christoffel-symbol form. Instead, E and L are used to reduce the radial motion to a first-order "energy" equation:
 
-Massless (photon):
-
+**Massless (photon):**
 $$
 \begin{aligned}
 \left(\frac{dr}{d\lambda}\right)^2 = E^2 - \left(1 - \frac{R}{r})(\frac{L^2}{r^2}\right)
 \end{aligned}
 $$
 
-Massive $(\epsilon = 1):$
+**Massive $(\epsilon = 1):$**
 
-$(\frac{dr}{d\lambda})^2 = E^2 - (1 - \frac{R}{r})(\frac{L^2}{r^2}) - \epsilon(1 - \frac{R}{r})$
+$$
+\begin{aligned}
+\left(\frac{dr}{d\lambda}\right)^2 = E^2 - \left(1 - \frac{R}{r}\right)\left(\frac{L^2}{r^2}\right) - \epsilon\left(1 - \frac{R}{r}\right)$
 
 with the azimuthal equation $\frac{d\phi}{d\lambda} = \frac{L}{r^2} in both cases.
 
 Since this is a squared first derivative, it is differentiated once more to obtain a clean second-order ODE suitable for RK4:
 
-$\frac{d^2r}{d\lambda^2} = \frac{L^2}{r^3} - (\frac{3}{2}) R \frac{L^2}{r^4} - \epsilon\frac{R}{(2r^2)}$
+$$
+\begin{aligned}
+\frac{d^2r}{d\lambda^2} = \frac{L^2}{r^3} - (\frac{3}{2}) R \frac{L^2}{r^4} - \epsilon\frac{R}{(2r^2)}
+\end{aligned}
+$$
 
 For Kerr, the equivalent (E, L)-parametrized radial and azimuthal equations include additional a-dependent terms from frame dragging.
