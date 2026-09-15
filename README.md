@@ -33,9 +33,10 @@ $$
 is not integrated directly in Christoffel-symbol form. Instead, E and L are used to reduce the radial motion to a first-order "energy" equation:
 
 **Massless (photon):**
+
 $$
 \begin{aligned}
-\left(\frac{dr}{d\lambda}\right)^2 = E^2 - \left(1 - \frac{R}{r})(\frac{L^2}{r^2}\right)
+\left(\frac{dr}{d\lambda}\right)^2 = E^2 - \left(1 - \frac{R}{r}\right)\left(\frac{L^2}{r^2}\right)
 \end{aligned}
 $$
 
