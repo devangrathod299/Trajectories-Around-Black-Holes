@@ -39,9 +39,11 @@ $$
 
 $$
 \begin{aligned}
-\left(\frac{dr}{d\lambda}\right)^2 = E^2 - \left(1 - \frac{R}{r}\right)\left(\frac{L^2}{r^2}\right) - \epsilon\left(1 - \frac{R}{r}\right)$
+\left(\frac{dr}{d\lambda}\right)^2 = E^2 - \left(1 - \frac{R}{r}\right)\left(\frac{L^2}{r^2}\right) - \epsilon\left(1 - \frac{R}{r}\right)
+\end{aligned}
+$$
 
-with the azimuthal equation $\frac{d\phi}{d\lambda} = \frac{L}{r^2} in both cases.
+with the azimuthal equation $\frac{d\phi}{d\lambda} = \frac{L}{r^2}$ in both cases.
 
 Since this is a squared first derivative, it is differentiated once more to obtain a clean second-order ODE suitable for RK4:
 
