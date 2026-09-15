@@ -49,8 +49,28 @@ Since this is a squared first derivative, it is differentiated once more to obta
 
 $$
 \begin{aligned}
-\frac{d^2r}{d\lambda^2} = \frac{L^2}{r^3} - (\frac{3}{2}) R \frac{L^2}{r^4} - \epsilon\frac{R}{(2r^2)}
+\frac{d^2r}{d\lambda^2} = \frac{L^2}{r^3} - \left(\frac{3}{2}\frac{RL^2}{r^4}\right) - \epsilon\frac{R}{(2r^2)}
 \end{aligned}
 $$
 
 For Kerr, the equivalent (E, L)-parametrized radial and azimuthal equations include additional a-dependent terms from frame dragging.
+
+### 3) Initial Conditions
+
+Each trajectory requires:
+
+* $r_0, \phi_0$ — initial radial distance and azimuthal angle (hard-coded)
+* ${\frac{dr}{d\lambda}}$ — obtained algebraically from the energy equation:
+* $\frac{dr}{d\lambda} = \sqrt{E^2 - \left(1 - \frac{R}{r}\right)\left(\frac{L^2}{r^2}\right) - \epsilon\left(1 - \frac{R}{r}\right)}$
+
+E, L — set by the physical scenario (e.g. circular orbit conditions, or a chosen impact parameter b = L/E for scattering trajectories)
+
+These are fed into an RK4 integrator (later migrated to scipy.solve_ivp) to march the trajectory forward in the affine parameter λ.
+
+### 4) Validation
+
+Trajectories are checked against the weak-field deflection formula:
+
+Δφ_weak = 2R/b = 4GM/(bc²)
+
+by plotting Δφ_sim / Δφ_weak vs. b. This ratio → 1 for large b (weak-field limit) and diverges from 1 as b decreases toward the black hole, as expected.
