@@ -20,7 +20,11 @@ For the Kerr extension, the Boyer–Lindquist form of the metric is used, introd
 
 The general geodesic equation,
 
-$\frac{d^2x^{\alpha}}{d{\lambda}^2} + {\Gamma}^{\alpha}_{\mu\beta} (\frac{dx^{\mu}}{d{\lamda}})(\frac{dx^{\beta}}{d{\lambda}}) = 0$
+$$
+\begin(align)
+\frac{d^2x^{\alpha}}{d{\lambda}^2} + {\Gamma}^{\alpha}_{\mu\beta} (\frac{dx^{\mu}}{d{\lambda}})(\frac{dx^{\beta}}{d{\lambda}}) = 0
+\end(align)
+$$
 
 is not integrated directly in Christoffel-symbol form. Instead, E and L are used to reduce the radial motion to a first-order "energy" equation:
 
