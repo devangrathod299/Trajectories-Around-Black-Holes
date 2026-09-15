@@ -78,8 +78,8 @@ Trajectories are checked against the weak-field deflection formula:
 
 $$
 \begin{aligned}
-\delta\phi_{weak} = \frac{2R}{b} = \frac{4GM}{bc^2}
+\Delta\phi_{weak} = \frac{2R}{b} = \frac{4GM}{bc^2}
 \end{aligned}
 $$
 
-by plotting $\delta\phi_{sim} / \delta\phi_{weak}$ vs. b. This ratio → 1 for large b (weak-field limit) and diverges from 1 as b decreases toward the black hole, as expected.
+by plotting $\Delta\phi_{sim} / \Delta\phi_{weak}$ vs. b. This ratio → 1 for large b (weak-field limit) and diverges from 1 as b decreases toward the black hole, as expected.
