@@ -7,7 +7,11 @@ Computational study of geodesic motion in curved spacetime, progressing from Sch
 
 Trajectories are computed in the equatorial plane ($\theta = {\pi}/{2}$). The Schwarzschild metric used:
 
-$ds^2 = -(1 - \frac{R}{r}){dt^2} + {(1 - \frac{R}{r})}^{-1}{dr^2} + {r^2}{{d\theta}^{2}} + {r^2}{sin\theta^2}{d\phi^2}$
+$$
+\begin{aligned}
+ds^2 = -(1 - \frac{R}{r}){dt^2} + {(1 - \frac{R}{r})}^{-1}{dr^2} + {r^2}{{d\theta}^{2}} + {r^2}{sin\theta^2}{d\phi^2}
+\end{aligned}
+$$
 
 where R = $2GM/c^2$ is the Schwarzschild radius. The metric supplies two conserved quantities along any geodesic:
 
@@ -71,6 +75,10 @@ These are fed into an RK4 integrator (later migrated to scipy.solve_ivp) to marc
 
 Trajectories are checked against the weak-field deflection formula:
 
-Δφ_weak = 2R/b = 4GM/(bc²)
+$$
+\begin{aligned}
+\delta\phi_{weak} = \frac{2R}{b} = \frac{4GM}{bc^2}
+\end{aligned}
+$$
 
-by plotting Δφ_sim / Δφ_weak vs. b. This ratio → 1 for large b (weak-field limit) and diverges from 1 as b decreases toward the black hole, as expected.
+by plotting $\delta\phi_{sim} / \delta\phi_{weak}$ vs. b. This ratio → 1 for large b (weak-field limit) and diverges from 1 as b decreases toward the black hole, as expected.
