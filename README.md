@@ -111,7 +111,7 @@ Frame dragging causes prograde photons to linger near the black hole longer than
 Rays emitted from the Schwarzschild ISCO (r = 3R) and traced to a distant observer reproduce the Einstein ring condition $(b > b_{crit} = 3√3 R/2)$, and once source motion, aberration, and Doppler shift are included, show direction-dependent redshift/blueshift patterns in the detected energy vs. source angle.
 
 <p align="center">
-  <img src="figures/rest_isco_in.png" width="450">
+  <img src="figures/isco_motion_out.png" width="450">
 </p>
 
 
