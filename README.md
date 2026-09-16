@@ -83,3 +83,15 @@ $$
 $$
 
 by plotting $\Delta\phi_{sim} / \Delta\phi_{weak}$ vs. b. This ratio → 1 for large b (weak-field limit) and diverges from 1 as b decreases toward the black hole, as expected.
+
+### Results:
+
+* Photon sphere: unstable circular photon orbit at r = 1.5R, confirmed by a constant-r trajectory in the massless case.
+* Perihelion shift: bound massive-particle orbits precess per revolution rather than closing, consistent with GR (vs. fixed Newtonian ellipses).
+* Kerr prograde/retrograde asymmetry: frame dragging causes prograde photons to linger near the black hole longer than retrograde photons at the same impact parameter; weak-field validation shows the two branches diverging in opposite directions from the non-rotating prediction as b decreases.
+* ISCO photon detection: rays emitted from the Schwarzschild ISCO (r = 3R) and traced to a distant observer reproduce the Einstein ring condition $(b > b_{crit} = 3√3 R/2)$, and — once source motion, aberration, and Doppler shift are included — show direction-dependent redshift/blueshift patterns in the detected energy vs. source angle.
+
+### References:
+
+* B. F. Schutz, A First Course in General Relativity
+* R. M. Wald, General Relativity, Ch. 12
