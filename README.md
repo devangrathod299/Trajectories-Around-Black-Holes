@@ -88,12 +88,32 @@ by plotting $\Delta\phi_{sim} / \Delta\phi_{weak}$ vs. b. This ratio → 1 for l
 
 * **Photon sphere:**
 Unstable circular photon orbit at r = 1.5R, confirmed by a constant-r trajectory in the massless case.
+
+<p align="center">
+  <img src="figures/photon_sphere.png" width="500">
+</p>
+
 * **Perihelion shift:**
 Bound massive-particle orbits precess per revolution rather than closing, consistent with GR (vs. fixed Newtonian ellipses).
+
+<p align="center">
+  <img src="figures/perhelion_shift.png" width="500">
+</p>
+
 * **Kerr prograde/retrograde asymmetry:**
 Frame dragging causes prograde photons to linger near the black hole longer than retrograde photons at the same impact parameter; weak-field validation shows the two branches diverging in opposite directions from the non-rotating prediction as b decreases.
+
+<p align="center">
+  <img src="figures/kerr_all.png" width="450">
+</p>
+
 * **ISCO photon detection:**
 Rays emitted from the Schwarzschild ISCO (r = 3R) and traced to a distant observer reproduce the Einstein ring condition $(b > b_{crit} = 3√3 R/2)$, and once source motion, aberration, and Doppler shift are included, show direction-dependent redshift/blueshift patterns in the detected energy vs. source angle.
+
+<p align="center">
+  <img src="figures/rest_isco_in.png" width="450">
+</p>
+
 
 ### References:
 
